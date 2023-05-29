@@ -2,13 +2,11 @@
 #----------------------------------------------------------
 # My Terraform
 #
-# Find Latest AMI id of:
-#latest_linux_ami_id = "ami-03aefa83246f44ef2"
-#latest_linux_ami_name = "al2023-ami-2023.0.20230503.0-kernel-6.1-x86_64"
-#latest_ubuntu_ami_id = "ami-04e601abe3e1a910f"
-#latest_ubuntu_ami_name = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20230516"
-#latest_win_ami_id = "ami-0b1e9479e618295b2"
-#latest_win_ami_name = "Windows_Server-2022-English-Full-Base-2023.05.10"
+# Create:
+#    - Security Group for Web Server
+#    - Launch Configuration with Auto AMI Lookup
+#    - Auto Scaling Group using 2 Availability Zones
+#    - Classic Load Balancer in 2 Availability Zones
 #-----------------------------------------------------------
 
 provider "aws" {
