@@ -6,7 +6,7 @@ resource "aws_default_vpc" "default" {}
 
 resource "aws_security_group" "my_webserver" {
   name = "WebServer Security Group"
-  description "My firrst security group"
+  description = "My first security group"
   vpc_id = aws_default_vpc.default.id
 }
 
