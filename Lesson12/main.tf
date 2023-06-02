@@ -4,9 +4,15 @@
 #
 # Variables
 #-----------------------------------------------------------
+# TO RUN:
+#  terraform plan -var-file="prod.auto.tfvars"
+# OR
+#  terraform plan -var-file="dev.auto.tfvars"
 
 provider "aws" {
-  region = var.region
+  region     = var.region
+  access_key = var.access_key
+  secret_key = var.secret_key
 }
 
 resource "aws_default_vpc" "default" {} # This need to be added since AWS Provider v4.29+ to get VPC id
