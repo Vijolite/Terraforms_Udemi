@@ -17,7 +17,7 @@ resource "aws_iam_user" "user1" {
 
 resource "aws_iam_user" "users" {
   count = length(var.users)
-  name  = element(var.users, count.index) #element(list,index)
+  name  = element(var.users, count.index) #element(list,index) users[index]
 }
 
 output "created_iam_users_all" {
