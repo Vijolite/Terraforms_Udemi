@@ -4,15 +4,6 @@ provider "aws" {
   secret_key = var.secret_key
 }
 
-/*
-terraform {
-  backend "s3" {
-    bucket = "new-bucket-ija"
-    key    = "dev/network/terraform.tfstate"
-    region = "us-east-1"
-  }
-}
-*/
 data "terraform_remote_state" "network" { //from where take remote data
   backend = "s3"
   config = {
