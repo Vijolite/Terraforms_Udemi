@@ -1,0 +1,47 @@
+{
+    "Item1": {
+        "id": {
+            "S": "1"
+        },
+        "Name": {
+            "S": "Villa Nr1"
+        },
+        "Body": {
+            "S": "{\"Details\":\"close to the sea\",\"Rate\":100,\"Sqft\":50,\"Occupancy\":4,\"ImageUrl\":\"https://www.shutterstock.com/image-photo/front-modern-villa-lawn-blue-260nw-472956442.jpg\",\"Amenity\":\"freezer\"}"
+        },
+        "CreatedDate": {
+            "S": "2023/06/04"
+        }
+    },
+    "Item2": {
+        "id": {
+            "S": "2"
+        },
+        "Name": {
+            "S": "Villa Nr2"
+        },
+        "Body": {
+            "S": "{\"Details\":\"close to shops\",\"Rate\":130.00,\"Sqrt\":40,\"Occupancy\":3,\"Amenity\":\"dish washer\", \"ImageUrl\":\"https://www.shutterstock.com/image-photo/front-modern-villa-lawn-blue-260nw-472956442.jpghttps://cdn.trendir.com/wp-content/uploads/old/house-design/small-villa-design-3.jpg\"}"
+        },
+        "CreatedDate": {
+            "S": "2023/06/04"
+        }
+    },
+    "Item3": {
+        "id": {
+            "S": "3"
+        },
+        "Name": {
+            "S": "Villa Nr3"
+        },
+        "Body": {
+            "S": "{\"Details\":\"inside a forest\",\"Rate\":110.00,\"Sqrt\":50,\"Occupancy\":4,\"ImageUrl\":\"https://www.contemporist.com/wp-content/uploads/2020/08/small-cabin-modern-wood-house-110820-1030-01-800x626.jpg\",\"Amenity\":\"outside light\"}"
+        },
+        "CreatedDate": {
+            "S": "2023/06/04"
+        },
+        "UpdatedDate": {
+            "S": "2023/06/06"
+        }
+    }
+}
